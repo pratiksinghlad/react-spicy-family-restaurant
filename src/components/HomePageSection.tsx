@@ -20,6 +20,25 @@ const HomePageSection: React.FC<HomePageSectionProps> = ({ onImageClick }) => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 animate-fade-in-down">Welcome to Spicy Family Restaurant</h1>
           <p className="text-lg md:text-xl mb-8 animate-fade-in-up">Your favorite place for delicious meals in Rudrapur, Jagatpura.</p>
         </div>
+
+       {/* --- Added Phone Numbers Section --- */}
+       <div className="mt-8 flex flex-col items-center space-y-2 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+            <div className="flex items-center">
+              {/* Changed icon color to white */}
+              <Phone className="w-5 h-5 mr-3 text-white flex-shrink-0" aria-hidden="true" />
+              <a href="tel:+917895518063" aria-label="Call +91 7895518063" className="text-white hover:text-amber-300">
+                +91 7895518063
+              </a>
+            </div>
+            <div className="flex items-center">
+              {/* Changed icon color to white */}
+              <Phone className="w-5 h-5 mr-3 text-white flex-shrink-0" aria-hidden="true" />
+              <a href="tel:+919720948267" aria-label="Call +91 9720948267" className="text-white hover:text-amber-300">
+                +91 9720948267
+              </a>
+            </div>
+          </div>
+          {/* --- End Phone Numbers Section --- */}
       </div>
       {/* Carousel Section */}
       {/* <div className="py-12 md:py-16 bg-gray-50">

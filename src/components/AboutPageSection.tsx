@@ -6,7 +6,7 @@ const AboutPageSection: React.FC = () => {
       <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12 md:mb-16">About Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div>
-          <img src="../assets/images/restaurant-interior.jpg" alt="Interior or exterior view of the restaurant" className="rounded-lg shadow-lg w-full h-auto object-cover" loading="lazy" width="600" height="450" onError={(e) => e.currentTarget.src='https://placehold.co/600x450/cccccc/ffffff?text=Image+Error'} />
+          <img src="images/restaurant.jpeg" alt="Interior or exterior view of the restaurant" className="rounded-lg shadow-lg w-full h-auto object-cover" loading="lazy" width="600" height="450" onError={(e) => e.currentTarget.src='https://placehold.co/600x450/cccccc/ffffff?text=Image+Error'} />
         </div>
         <div className="text-gray-700 space-y-4 leading-relaxed">
           <h3 className="text-2xl font-semibold text-gray-800">Our Story</h3>
