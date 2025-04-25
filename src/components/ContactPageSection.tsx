@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, MapPin } from 'lucide-react';
 import MapIframeNoKey from './MapIframe';
 
 const ContactPageSection: React.FC = () => {
@@ -12,10 +12,18 @@ const ContactPageSection: React.FC = () => {
           <div className="space-y-8">
             <div className="bg-white p-6 rounded-lg shadow-md space-y-4">
               <h3 className="text-xl font-semibold text-gray-800 border-b pb-2 mb-4">Our Details</h3>
-              <div className="flex items-start">
+            <div className="flex items-start">
+              <a 
+              href="https://maps.app.goo.gl/ogY3ywkwLtoF9CU67"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              title="Open in Google Maps"
+              className="flex items-start text-gray-700 hover:text-amber-700"
+              >
                 <MapPin className="w-5 h-5 mr-3 text-amber-600 flex-shrink-0 mt-1" aria-hidden="true" />
-                <address className="not-italic text-gray-700">Ground floor, Devansh Tower, Balaji Dwar Road <br />  near Chota Gurunanak School, Adarsh Colony <br /> Rudrapur, Jagatpura, Uttarakhand 263153</address>
-              </div>
+                <address className="text-gray-700 hover:text-amber-700 not-italic text-gray-700">Ground floor, Grover Tower, Balaji Dwar Road <br />  near Chota Gurunanak School, Adarsh Colony <br /> Rudrapur, Jagatpura, Uttarakhand 263153</address>
+              </a>
+            </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-amber-600 flex-shrink-0" aria-hidden="true" />
                 <a href="tel:+917895518063" aria-label="Call +91 7895518063" className="text-gray-700 hover:text-amber-700">+91 7895518063</a>
