@@ -12,9 +12,9 @@ const carouselImages = [
 
 const HomePageSection: React.FC<HomePageSectionProps> = ({ onImageClick }) => {
   return (
-    <section id="home" className="pt-16 focus:outline-none scroll-mt-16" tabIndex={-1}>
+    <section id="home" className="pt-8 focus:outline-none scroll-mt-8" tabIndex={-1}>
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-amber-500 to-orange-600 text-white py-24 md:py-32 text-center mb-12 md:mb-16 overflow-hidden">
+      <div className="relative bg-gradient-to-r from-amber-500 to-orange-600 text-white py-8 md:py-12 text-center mb-8 md:mb-16 overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative z-10 container mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 animate-fade-in-down">Welcome to Spicy Family Restaurant</h1>

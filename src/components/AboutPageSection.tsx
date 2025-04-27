@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutPageSection: React.FC = () => {
   return (
-    <section id="about" className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 scroll-mt-16 focus:outline-none" tabIndex={-1}>
+    <section id="about" className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 scroll-mt-16 focus:outline-none" tabIndex={-1}>
       <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12 md:mb-16">About Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div>
