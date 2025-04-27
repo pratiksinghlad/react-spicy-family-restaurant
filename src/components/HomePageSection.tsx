@@ -19,6 +19,7 @@ const HomePageSection: React.FC<HomePageSectionProps> = ({ onImageClick }) => {
         <div className="relative z-10 container mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 animate-fade-in-down">Welcome to Spicy Family Restaurant</h1>
           <p className="text-lg md:text-xl mb-8 animate-fade-in-up">Your favorite place for delicious meals in Rudrapur, Jagatpura.</p>
+          <p className="text-lg md:text-xl mb-2 animate-fade-in-up">रुद्रपुर में स्वादिष्ट भोजन के लिए आपकी पसंदीदा जगह, जगतपुरा।.</p>
         </div>
 
        {/* --- Added Phone Numbers Section --- */}
